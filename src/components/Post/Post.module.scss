@@ -1,0 +1,41 @@
+.post__container{
+    width: 22.5rem;
+    img{
+        margin-bottom: 1rem;
+    }
+}
+
+h4{
+    color: #EB0028;
+    font-weight: 700;
+    font-size: .81rem;
+    
+}
+h2{
+    margin-top: 1.2rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+
+}
+h6{
+    font-weight: 400;
+    font-size: .75rem;
+    
+    span{
+        color: #9B9B9B;
+        
+        svg{
+            margin: .4rem;
+         
+            justify-items: center;
+
+        }
+    }
+    margin-bottom: 1.1rem;
+}
+p{
+    color:#9B9B9B;
+    font-weight: 400;
+    font-size: .8rem;
+}
