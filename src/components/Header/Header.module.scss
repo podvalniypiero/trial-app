@@ -1,40 +1,37 @@
-.header__logo{
+.header__logo {
     display: grid;
     grid-template-columns: auto 12rem;
     column-gap: 29.4rem;
     padding: 1.8rem;
     align-items: center;
     justify-content: flex-end;
-    
 }
-hr{
-    color: #E9E9E9;
+hr {
+    color: #e9e9e9;
     opacity: 0.2;
     width: 1;
 }
 header {
     margin-bottom: 3rem;
-    ul{
-    position: sticky;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    
-    border-bottom: 1px;
-    padding: 1.4rem;
-    margin-left: 15rem;
-    margin-right: 20rem;
-    
-    li{
-        font-size: 1rem;
-        font-weight: 500;
+    ul {
+        position: sticky;
+        list-style: none;
         display: flex;
-        align-items: center;
-        svg{
-            margin-left: .5rem;
-            
-        }
-    } 
+        flex-direction: row;
 
-}
+        border-bottom: 1px;
+        padding: 1.4rem;
+        margin-left: 15rem;
+        margin-right: 20rem;
+
+        li {
+            font-size: 1rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            svg {
+                margin-left: 0.5rem;
+            }
+        }
+    }
 }
