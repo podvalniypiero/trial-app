@@ -1,0 +1,38 @@
+.header__logo{
+
+    display: grid;
+    grid-template-columns: auto 15%;
+    column-gap: 29.4rem;
+    padding: 1.8rem;
+    align-items: center;
+    align-self: flex-end;
+    justify-content: flex-end;
+    align-content: flex-end;
+    &__logo{      
+    }
+}
+hr{
+    color: #E9E9E9;
+    opacity: 0.2;
+    width: 1;
+}
+ul{
+    position: sticky;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px;
+    padding: 1.4rem;
+    
+    li{
+        font-size: 1rem;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        svg{
+            margin-left: .5rem;
+            
+        }
+    } 
+
+}
